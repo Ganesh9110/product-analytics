@@ -121,4 +121,86 @@ A reusable Python pipeline was developed to:
 - Export cleaned datasets and quality reports.
 - Maintain execution logs.
 
-The pipeline was tested interactively, and the Jupyter
+The pipeline was tested interactively, and the Jupyter notebook was executed using Papermill.
+
+## 9. Repository Structure
+
+```text
+product-analytics/
+│
+├── Data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_Data_Understanding_and_Quality_Assessment.ipynb
+│   ├── 02_Data_Cleaning_and_Transformation.ipynb
+│   ├── 03_Exploratory_Data_Analysis.ipynb
+│   ├── 04_Statistical_Analysis.ipynb
+│   └── 05_Automation_Pipeline.ipynb
+│
+├── automation/
+│   ├── data_pipeline.py
+│   ├── run_pipeline.bat
+│   └── logs/
+│
+├── reports/
+│
+├── .gitignore
+└── README.md
+```
+
+## 10. Project Limitations
+
+- The datasets are synthetic and independently generated.
+- Application events do not provide reliable sequential user sessions, so a valid conversion funnel could not be calculated.
+- Reliable cohort retention analysis was not established.
+- Marketing spend is unavailable, so CAC and ROAS cannot be calculated.
+- Product cost and margin information is unavailable, so profit analysis is outside the current scope.
+- Return reasons and delivery timestamps are unavailable.
+- Monthly and yearly comparisons involving partial periods should be interpreted carefully.
+- Statistical tests and simulated A/B tests require their results to be interpreted separately from observed business KPIs.
+
+## 11. How to Run the Project
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Ganesh9110/product-analytics.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd product-analytics
+```
+
+3. Install the required Python packages:
+
+```bash
+pip install pandas numpy matplotlib scipy jupyter papermill
+```
+
+4. Open Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+5. Execute the notebooks in numerical order.
+
+6. Configure MySQL separately if you want to reproduce the SQL analysis.
+
+## 12. Author
+
+**Kolluri Venkata Ganesh**
+
+Aspiring Data Analyst | Business Intelligence | Product Analytics
+
+GitHub: https://github.com/Ganesh9110
+
+Portfolio: https://ganesh9110.github.io/Ganesh-Portfolio/
+
+---
+
+*This project demonstrates an end-to-end analytical workflow, from data understanding and cleaning to business analysis, statistical exploration, SQL querying, and automation.*
