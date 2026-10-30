@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.env
+.ipynb_checkpoints/
+automation/logs/
+*.log
+reports/05_Automation_Executed.ipynb
+.DS_Store
+Thumbs.db

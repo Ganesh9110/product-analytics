@@ -1,0 +1,16 @@
+product_id,product_name,category,total_revenue,total_orders,units_sold,unique_customers
+P3001,Mixer Grinder,Home & Kitchen,1051031.34,248,327,237
+P2001,Running Shoes,Fashion,741694.72,262,350,253
+P1002,Smart Watch,Electronics,657608.56,233,286,224
+P5002,Cricket Bat,Sports,566102.47,243,322,233
+P1001,Wireless Earbuds,Electronics,550980.73,248,327,243
+P1003,Bluetooth Speaker,Electronics,466958.34,253,331,234
+P2003,Backpack,Fashion,319372.92,200,263,193
+P3003,Bedsheet Set,Home & Kitchen,291513.21,247,312,237
+P5001,Yoga Mat,Sports,251019.27,227,295,217
+P6002,Python Programming,Books,243702.29,253,324,241
+P4001,Face Serum,Beauty,190536.91,226,292,221
+P2002,Cotton T-Shirt,Fashion,171405.02,233,308,227
+P6001,Data Analytics Handbook,Books,151536.08,256,322,248
+P4002,Sunscreen SPF 50,Beauty,145045.52,223,286,213
+P3002,Water Bottle,Home & Kitchen,117326.62,248,316,243

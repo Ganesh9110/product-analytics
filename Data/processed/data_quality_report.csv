@@ -1,0 +1,8 @@
+Quality Check,Issue Count
+Duplicate event IDs,0
+Duplicate order IDs,0
+Missing event timestamps,0
+Missing order dates,0
+Negative order quantities,0
+Negative net amounts,0
+Missing clean discounts,0
